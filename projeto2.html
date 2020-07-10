@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+    
+    <form method="POST" action="">
+        <div class="form-row">
+          <div class="content">
+            <label for="inputname4">Nome:</label>
+            <input name="nome" type="text" class="form-control" id="inputname4" placeholder="Insira seu nome">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputnamed4">Sobrenome:</label>
+            <input name="sobrenome" type="text" class="form-control" id="inputname4" placeholder="Insira seu sobrenome">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="inputAddress">Endereço:</label>
+          <input name="endereço" type="text" class="form-control" id="inputAddress" placeholder="av. joao 1234 ">
+        </div>
+        <div class="form-group">
+          <label for="inputAddress2">Complemento:</label>
+          <input name="complemento" type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, casa,ou bloco">
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">Cidade:</label>
+            <input name="cidade" type="text" class="form-control" id="inputCity" placeholder="Insira o nome da sua cidade">
+          </div>
+          <div class="form-group col-md-4">
+            <label for="inputState">Estado:</label>
+            <select name="estado" id="inputState" class="form-control">
+              <option selected>Estados...</option>
+              <option>CE</option><option>PB</option><option>SP</option><option>RJ</option>
+            </select>
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputZip">CEP:</label>
+            <input name="cep" type="text" class="form-control" id="inputZip" placeholder="Insira seu CEP">
+          </div>
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputjobs">Selecione uma das vagas disponiveis:</label>
+            <select name="vagaSelecionada" id="inputjobs" class="form-control">
+              <option selected>Vagas TIC...</option>
+              <option>Gestor de TIC</option>
+              <option>Suporte TIC</option>
+              <option>Analista TIC</option>
+              <option>Estagiário TIC</option>
+            </select>
+          </div>
+      
+        <div class="form-group">
+          <div class="form-check">
+            <input name="noticias" class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Receber noticias de novas vagas!
+            </label>
+          </div>
+        </div>
+        <button name="enviaRecrutador" type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+    
+</body>
+</html>
